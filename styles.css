@@ -1,0 +1,236 @@
+/* CSS BY NAME:Maria Carpenter */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/* ROOT VARIABLES */
+:root {
+    --teal: #4CA7C0;
+    --purple: #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57;
+    --pink: #D9526F;
+    --dark-gray: #1E1E1E;
+    --white: #ffffff;
+    --font-family: 'Inter', sans-serif;
+}
+
+
+/* GLOBAL STYLES (mobile first/small) */
+
+
+h1,
+h2 {
+    font-family: Kavoon;
+
+}
+
+
+body {
+    font-family: Inter, sans-serif;
+    color: var(--dark-gray);
+    background-color: var(--purple);
+    margin: center;
+    padding: center;
+}
+
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 20px 0;
+    color: var(--white);
+}
+
+nav {
+
+    font-size: 1.5em;
+
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--yellow);
+    padding: 0xp;
+    margin: 0px;
+
+}
+
+.menu p {
+    margin: 0;
+
+    color: var(--dark-gray);
+
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+
+    margin: 20px;
+
+
+
+}
+
+.menu a {
+    text-size-adjust: 1.5em;
+    display: block;
+    background-color: var(--white);
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+
+
+
+h2 {
+    font-size: 2em;
+    text-align: start;
+    margin: 20px 0;
+    color: var(--white);
+
+}
+
+h3 {
+    font-size: 1.5em;
+    color: var(--yellow);
+}
+
+h4 {
+    font-size: 1.15em;
+    color: var(--purple);
+}
+
+
+.item {
+    background-color: var(--white);
+    border-radius: 15px;
+    margin: 15px auto;
+    padding: 20px;
+    width: 80%;
+    text-align: start;
+}
+
+#whyus {
+    background-color: var(--pink);
+    padding: 10px;
+    text-align: start;
+}
+
+.why {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding: 5px 5px 5px 0px;
+    list-style: none;
+}
+
+
+
+.why1 {
+    padding: 30px;
+    background-color: var(--teal);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.why2 {
+    padding: 30px;
+    background-color: var(--lavender);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.why3 {
+    padding: 30px;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.why4 {
+    padding: 30px;
+    background-color: var(--white);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+table {
+    width: 65%;
+    margin: 0 auto;
+    padding-left: 40%;
+    padding-right: 40px;
+    border-collapse: collapse;
+    align-items: center;
+
+}
+
+th {
+    background-color: var(--yellow);
+    padding: 15px;
+    border: 2px #E9BB57;
+}
+
+td {
+    background-color: var(--white);
+    padding: 15px;
+    border: 1px solid #E9BB57;
+}
+
+#firststep {
+
+    background-color: var(--pink);
+    text-align: center;
+
+    color: #ffff;
+}
+
+#firststep button {
+    font-weight: bold;
+    width: 85VW;
+    text-align: center;
+    max-width: 600PX;
+    height: 65PX;
+    background-color: var(--white);
+    border-radius: 15px;
+    box-shadow: 0 14px 28px rgb(30, 30, 30, 0.6);
+    border-color: var(--dark-gray);
+}
+
+footer p {
+    color: var(--white);
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: var(--white);
+    padding: 10px;
+    text-decoration: none;
+    margin: 0 20px;
+}
