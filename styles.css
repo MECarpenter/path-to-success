@@ -123,11 +123,14 @@ h4 {
     text-align: start;
 }
 
+
+
 #whyus {
     background-color: var(--pink);
     padding: 10px;
     text-align: start;
 }
+
 
 .why {
     display: grid;
